@@ -54,3 +54,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Database Setup
+
+This application uses MySQL for user management. To set up the database:
+
+1. Install MySQL if not already installed on your system.
+
+2. Create a new database for the application:
+```sql
+CREATE DATABASE stock_prediction_app;
+```
