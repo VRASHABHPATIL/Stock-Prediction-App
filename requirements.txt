@@ -1,1 +1,1 @@
-
+!pip install yfinance pandas numpy scikit-learn tensorflow streamlit plotly schedule
