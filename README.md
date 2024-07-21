@@ -73,6 +73,6 @@ db = mysql.connector.connect(
     database="stock_prediction_app"
 )
 ```
-4.Update these parameters in `database.py` to match your MySQL setup.
-5.The `create_user_table()` function in `database.py` will automatically create the required users table when the application is run for the first time.
-6.Ensure that the MySQL server is running before starting the application.
+4. Update these parameters in `database.py` to match your MySQL setup.
+5. The `create_user_table()` function in `database.py` will automatically create the required users table when the application is run for the first time.
+6. Ensure that the MySQL server is running before starting the application.
