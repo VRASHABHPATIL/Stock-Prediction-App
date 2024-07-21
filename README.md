@@ -33,3 +33,6 @@ This Stock Prediction App is a comprehensive tool for predicting stock prices us
 ## Installation
 
 1. Clone the repository:
+```
+git clone https://github.com/yourusername/stock-prediction-app.git
+cd stock-prediction-app
