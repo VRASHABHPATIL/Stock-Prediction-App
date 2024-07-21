@@ -33,14 +33,14 @@ This Stock Prediction App is a comprehensive tool for predicting stock prices us
 ## Installation
 
 1. Clone the repository:
-```
+```bash
 git clone https://github.com/VRASHABHPATIL/stock-prediction-app.git
 ```
-```
+```bash
 cd stock-prediction-app
 ```
 2. Install required packages:
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 - Update the connection details in `database.py`
 
 4. Run the Streamlit app:
-```
+```bash
 streamlit run app.py
 ```
 
