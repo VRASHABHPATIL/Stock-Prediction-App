@@ -147,8 +147,5 @@ The `scheduler.py` script runs continuously, retraining all models every 24 hour
 
 [MIT License](LICENSE)
 
-## Contributors
 
-- [Vrashabh Patil]
-
-Feel free to contribute to this project by submitting pull requests or reporting issues!
+`Feel free to contribute to this project by submitting pull requests or reporting issues!`
