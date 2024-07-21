@@ -64,3 +64,15 @@ This application uses MySQL for user management. To set up the database:
 ```sql
 CREATE DATABASE stock_prediction_app;
 ```
+3.The `database.py` file contains the logic to create the necessary tables. It uses the following connection parameters:
+```python
+db = mysql.connector.connect(
+    host="localhost",
+    user="your_user_name or root",
+    password=your_password",
+    database="stock_prediction_app"
+)
+```
+4.Update these parameters in `database.py` to match your MySQL setup.
+5.The `create_user_table()` function in `database.py` will automatically create the required users table when the application is run for the first time.
+6.Ensure that the MySQL server is running before starting the application.
