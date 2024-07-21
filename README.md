@@ -145,7 +145,9 @@ The `scheduler.py` script runs continuously, retraining all models every 24 hour
 
 ## License
 
-[MIT License](LICENSE)
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 Feel free to contribute to this project by submitting pull requests or reporting issues!
