@@ -76,3 +76,73 @@ db = mysql.connector.connect(
 4. Update these parameters in `database.py` to match your MySQL setup.
 5. The `create_user_table()` function in `database.py` will automatically create the required users table when the application is run for the first time.
 6. Ensure that the MySQL server is running before starting the application.
+
+
+## Usage
+
+1. Register for a new account or login with existing credentials
+2. Select a stock symbol from the dropdown menu
+3. Click "Predict" to generate forecasts and view analysis
+4. Explore various charts and metrics provided for the selected stock
+
+## Screenshots
+
+### Login Page
+![Login Page](path/to/login_screenshot.png)
+
+### Main Dashboard
+![Main Dashboard](path/to/dashboard_screenshot.png)
+
+### Stock Prediction Chart
+![Prediction Chart](path/to/prediction_chart_screenshot.png)
+
+### Technical Indicators
+![Technical Indicators](path/to/technical_indicators_screenshot.png)
+
+## Technical Details
+
+### Machine Learning Model
+
+- Architecture: Generative Adversarial Network (GAN)
+- Implementation: TensorFlow/Keras
+- Input: Sequence of historical stock prices and returns
+- Output: Predicted future stock prices
+
+### Data Pipeline
+
+- Data Source: Yahoo Finance (via yfinance library)
+- Preprocessing: MinMaxScaler for normalization
+- Sequence Creation: Time series data converted to supervised learning format
+
+### Web Interface
+
+- Framework: Streamlit
+- Visualizations: Plotly for interactive charts
+- Styling: Custom CSS for enhanced user experience
+
+### Backend
+
+- Database: MySQL for user management
+- Authentication: Bcrypt for password hashing
+- Scheduling: Python's `schedule` library for automated model training
+
+## Automated Model Training
+
+The `scheduler.py` script runs continuously, retraining all models every 24 hours to ensure predictions are based on the most recent data.
+
+## Future Improvements
+
+- Implement more advanced feature engineering
+- Add support for cryptocurrency predictions
+- Enhance the user interface with more customization options
+- Integrate sentiment analysis from news and social media
+
+## License
+
+[MIT License](LICENSE)
+
+## Contributors
+
+- [Vrashabh Patil]
+
+Feel free to contribute to this project by submitting pull requests or reporting issues!
