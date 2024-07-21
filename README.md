@@ -88,16 +88,16 @@ db = mysql.connector.connect(
 ## Screenshots
 
 ### Login Page
-![Login Page](path/to/login_screenshot.png)
+![Login Page](![image](https://github.com/user-attachments/assets/0945d063-91d5-43c3-8e90-a1062496e945))
 
 ### Main Dashboard
-![Main Dashboard](path/to/dashboard_screenshot.png)
+![Main Dashboard](![image](https://github.com/user-attachments/assets/e53bffdf-364d-45ec-9fc0-7a2aee83ef26))
 
 ### Stock Prediction Chart
-![Prediction Chart](path/to/prediction_chart_screenshot.png)
+![Prediction Chart](![image](https://github.com/user-attachments/assets/fd6e8c9d-2ff3-41b5-bb3f-161124a2dbed))
 
 ### Technical Indicators
-![Technical Indicators](path/to/technical_indicators_screenshot.png)
+![Technical Indicators](![image](https://github.com/user-attachments/assets/e894f9ea-377b-44f9-9db9-16a4361a8ac9))
 
 ## Technical Details
 
