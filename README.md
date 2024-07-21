@@ -36,3 +36,4 @@ This Stock Prediction App is a comprehensive tool for predicting stock prices us
   ```
   git clone https://github.com/VRASHABHPATIL/stock-prediction-app.git
   cd stock-prediction-app
+2. Install required packages:
