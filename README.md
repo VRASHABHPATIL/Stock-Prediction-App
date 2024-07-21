@@ -88,18 +88,24 @@ db = mysql.connector.connect(
 ## Screenshots
 
 ### Login Page
-![Login Page](![image](https://github.com/user-attachments/assets/0945d063-91d5-43c3-8e90-a1062496e945))
+<img src="https://github.com/user-attachments/assets/0945d063-91d5-43c3-8e90-a1062496e945" width=600 height=400/>
+
 
 ### Main Dashboard
-![Main Dashboard](![image](https://github.com/user-attachments/assets/e53bffdf-364d-45ec-9fc0-7a2aee83ef26))
+<img src="https://github.com/user-attachments/assets/e53bffdf-364d-45ec-9fc0-7a2aee83ef26" width=600 height=400/>
+
 
 ### Stock Prediction Chart
-![Prediction Chart](![image](https://github.com/user-attachments/assets/fd6e8c9d-2ff3-41b5-bb3f-161124a2dbed))
+<img src="https://github.com/user-attachments/assets/fd6e8c9d-2ff3-41b5-bb3f-161124a2dbed" width=600 height=400/>
+
+
 
 ### Technical Indicators
-![Technical Indicators](![image](https://github.com/user-attachments/assets/e894f9ea-377b-44f9-9db9-16a4361a8ac9))
+<img src="https://github.com/user-attachments/assets/e894f9ea-377b-44f9-9db9-16a4361a8ac9" width=600 height=400/>
+
 
 ## Technical Details
+
 
 ### Machine Learning Model
 
