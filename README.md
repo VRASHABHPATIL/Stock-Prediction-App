@@ -50,3 +50,6 @@ pip install -r requirements.txt
 - Update the connection details in `database.py`
 
 4. Run the Streamlit app:
+```
+streamlit run app.py
+``
