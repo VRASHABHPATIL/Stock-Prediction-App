@@ -19,7 +19,7 @@ def plot_stock_data(data, predictions):
     ))
 
     # Prediction
-    prediction_dates = pd.date_range(start=data.index[-1] + pd.Timedelta(days=1), periods=3)
+    prediction_dates = pd.date_range(start=data.index[-1] + pd.Timedelta(days=4), periods=3)
     all_dates = data.index.tolist() + prediction_dates.tolist()
     all_values = data['Close'].tolist() + predictions[:3]
 
